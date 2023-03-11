@@ -1,0 +1,51 @@
+.title {
+  font-size: 18px;
+  margin-top: 20px;
+  width: 100%;
+  margin-left: 20%;
+}
+.table {
+  max-width: 100%;
+  width: 80%;
+  margin: 20px auto;
+}
+.table_tbody {
+  display: flex;
+  flex-direction: column;
+}
+.table_tr {
+  display: flex;
+  justify-content: space-between;
+}
+.table_thAndTd {
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid rgb(85, 136, 248);
+}
+.table_th {
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgb(85, 136, 248);
+  color: #fff;
+}
+.table_thForNum {
+  text-align: center;
+  width: 50px;
+  height: 30px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgb(85, 136, 248);
+  color: #fff;
+}
+.table_tdForId {
+  text-align: center;
+  width: 50px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid rgb(85, 136, 248);
+}

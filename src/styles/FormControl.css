@@ -1,0 +1,57 @@
+.main_from {
+  padding: 30px;
+}
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_control-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.form_control-blockOfBtn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+}
+.form_control-label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.form_control-input {
+  width: 350px;
+  height: 20px;
+  outline: none;
+  background-color: rgb(236, 234, 234);
+  letter-spacing: 0.5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+}
+.form_control-area {
+  width: 350px;
+  height: 70px;
+  background-color: rgb(236, 234, 234);
+  outline: none;
+  letter-spacing: 0.5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+}
+
+/* Всплывающее окно ошибки */
+.error_modal {
+  width: 200px;
+  color: red;
+}
+
+/* Valids */
+.block_fromValid {
+  display: flex;
+}
+.block_fromValid-img {
+  width: 15px;
+}
